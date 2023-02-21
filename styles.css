@@ -4,6 +4,8 @@ body{
     margin: 0;
 }
 
+/* BEGIN NAV CSS*/
+
 .nav{
     position: relative;
 }
@@ -11,8 +13,21 @@ body{
 nav{
     position: sticky;
     width: 100%;
-    background-color: aliceblue;
-    color: black;
+    background-color:rgba(54, 54, 54, 0.384);
+    color: rgba(255, 255, 255, 0.7);
     text-align: center;
-    padding: 1em;
+    padding: 0.75em;
 }
+
+#apple-logo:hover{
+    transform: rotate(360deg);
+    transition: 4s ease-out;
+}
+
+#apple-logo:not(:hover){
+    transform: rotate(0deg);
+    transition: 4s ease-out;
+}
+
+/* END NAV CSS*/
+
