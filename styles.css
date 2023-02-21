@@ -2,6 +2,7 @@ body{
     background-color: black;
     color: white;
     margin: 0;
+    font-size: larger;
     font-family: -apple-system, system-ui, BlinkMacSystemFont;
 }
 
@@ -17,7 +18,8 @@ nav{
     background-color:rgba(54, 54, 54, 0.384);
     color: rgba(255, 255, 255, 0.7);
     text-align: center;
-    padding: 0.75em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
 }
 
 #apple-logo:hover{
@@ -31,4 +33,32 @@ nav{
 }
 
 /* END NAV CSS*/
+
+/* BEGIN FIRST BANNER*/
+
+#first-banner{
+    width: 100%;
+    text-align: center;
+}
+
+#image-first-banner{
+    max-width: 80%;
+    height: auto;
+}
+
+#imagecontainer-first-banner{
+    width: 100%;
+}
+/* END FIRST BANNER*/
+
+/* BEGIN SECOND BANNER*/
+
+#second-banner{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+/* END SECOND BANNER*/
 
