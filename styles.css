@@ -3,7 +3,7 @@ body{
     color: white;
     margin: 0;
     font-size: larger;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 /* BEGIN NAV CSS*/
@@ -62,9 +62,32 @@ nav{
     top: 0;
 }
 
-#second-banner p{
+#second-banner h1{
     margin: 0;
+    padding-top: 1.5em;
 }
 
+#image-second-banner{
+    max-width: 80%;
+    height: auto;
+}
+
+#imagecontainer-second-banner{
+    width: 100%;
+}
 /* END SECOND BANNER*/
+
+/* BEGIN THIRD BANNER*/
+
+#third-banner{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#third-banner svg{
+    padding-top: 1.5em;
+}
+
+/* END THIRD BANNER*/
 
