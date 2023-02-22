@@ -6,19 +6,6 @@ body{
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
-a{
-    color: #8FBBE7;
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-a:visited{
-    color: #8FBBE7;
-}
-
 /* BEGIN NAV CSS*/
 
 .nav{
