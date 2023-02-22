@@ -150,7 +150,6 @@ figure.two figcaption{
 /* END THIRD BANNER*/
 
 /* BEGIN FOOTER*/
-
     footer{
         width: 100%;
         text-align: center;
@@ -160,7 +159,7 @@ figure.two figcaption{
     }
 
     #sign{
-        float: right;
+        padding-top: 0.25em;
     }
 /* END FOOTER*/
 
