@@ -159,5 +159,8 @@ figure.two figcaption{
         padding-bottom: 0.75em;
     }
 
+    #sign{
+        float: right;
+    }
 /* END FOOTER*/
 
