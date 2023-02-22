@@ -147,6 +147,17 @@ figure.two figcaption{
     transform: scale(1);
     transition: 3s;
 }
-
 /* END THIRD BANNER*/
+
+/* BEGIN FOOTER*/
+
+    footer{
+        width: 100%;
+        text-align: center;
+        background-color: #F5F5F7;
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+    }
+
+/* END FOOTER*/
 
