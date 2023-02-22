@@ -6,6 +6,14 @@ body{
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+a{
+    color: #8FBBE7;
+}
+
+a:visited{
+    color: #8FBBE7;
+}
+
 /* BEGIN NAV CSS*/
 
 .nav{
@@ -92,13 +100,16 @@ nav{
         auto-fit,
         minmax(
             500px,
-            3fr
+            3.75fr
         )
     );
-    gap: 1em;
+    gap: 2em;
     justify-content: center;
 }
 
+figure figcaption{
+    background-color: black;
+}
 
 /* END THIRD BANNER*/
 
