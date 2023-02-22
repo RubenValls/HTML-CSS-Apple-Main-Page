@@ -90,11 +90,12 @@ nav{
     grid-template-columns: repeat(
         auto-fit,
         minmax(
-            500px,
-            3.75fr
+            480px,
+            1fr
         )
     );
     justify-content: center;
+    padding: 0;
 }
 
 figure.one{
@@ -118,6 +119,16 @@ figure.two{
 figure.two figcaption{
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+.img-figure:hover{
+    transform: scale(1.1);
+    transition: 3s;
+}
+
+.img-figure:not(:hover){
+    transform: scale(1);
+    transition: 3s;
 }
 
 /* END THIRD BANNER*/
