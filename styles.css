@@ -85,9 +85,20 @@ nav{
     margin-bottom: 0;
 }
 
-#third-banner svg{
+.images-container{
     padding-top: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            500px,
+            3fr
+        )
+    );
+    gap: 1em;
+    justify-content: center;
 }
+
 
 /* END THIRD BANNER*/
 
